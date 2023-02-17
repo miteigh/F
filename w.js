@@ -21,6 +21,6 @@ async function wea(city){
        function Ktoc(K){
          return Math.floor(K - 273.15 );}
        form.addEvenListener('submit',(e) => {
-         const city se.value;
+         const city = se.value;
          if(city){
-           getweatherByLocation(city)}});
+           getWeatherByLocation(city)}});
