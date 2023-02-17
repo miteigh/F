@@ -1,4 +1,4 @@
-const apikey = "search on Google Codewithrandom you get api key";
+const apikey = "https://cloud.google.com/docs/authentication/api-keys#using";
 const ma = document.getElementById('m');
 const fo = document.getElementById('f');
 const se = document.getElementById('s'); 
