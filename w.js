@@ -20,7 +20,7 @@ async function getWeatherByLocation(city){
       };
        function Ktoc(K){
          return Math.floor(K - 273.15 );}
-       fo.addEvenListener('submit',(e) => { e.preventDefault();
+       fo.addEventListener('submit',(e) => { e.preventDefault();
          const city = se.value;
          if(city){
            getWeatherByLocation(city)}});
