@@ -1,4 +1,4 @@
-const apikey = "https://cloud.google.com/docs/authentication/api-keys#using";
+const apikey = "bd5e378503939ddaee76f12ad7a97608";
 const ma = document.getElementById('m');
 const fo = document.getElementById('f');
 const se = document.getElementById('s'); 
