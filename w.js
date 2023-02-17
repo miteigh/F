@@ -11,9 +11,9 @@ async function getWeatherByLocation(city){
       function addWeatherToPage(data){
         const temp =Ktoc(data.ma.temp);
         const weather = document.createElement('div')weather.classlist.add('weather');
-        weather.innerHTML = '<h2><img src="https://openweathermap.org/img/wn/$(data.weather[0].icon)@2x.png"/>
-                             $(temp)c <img src="https://openweathermap.org/img/wn/$(data.weather[0].icon)@2x.png"/>
-                             <small> $(data.weather[0].ma)</small>
+        weather.innerHTML = '<h2><img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"/>
+                             $(temp)c <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"/>
+                             <small> ${data.weather[0].ma}</small>
         ';
         ma.innerHTML="";
         ma.appendChild(weather);
